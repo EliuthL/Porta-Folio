@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./components/nav.js"></script>
+    <script src="./components/footer.js"></script>
+    <script src="./components/hero.js"></script>
+    <script src="./components/aboutme.js"></script>
+    <script src="./components/elements/skillIcon.js"></script>
+    <script src="./components/elements/card.js"></script>
+    <script src="./components/experience.js"></script>
+    <script src="./components/skills.js"></script>
+    <script src="./js/dowloadCv.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Portafolio</title>
+  </head>
+  <body class="flex flex-col w-full min-h-screen">
+    <!-- NAV -->
+    <div id="nav">
+      <navigation-bar></navigation-bar>
+    </div>
+
+    <!-- MAIN -->
+    <main class="flex-grow">
+      <hero-section></hero-section>
+      <aboutme-section></aboutme-section>
+      <skills-section></skills-section>
+      <experience-section></experience-section>
+    </main>
+
+    <!-- FOOTER -->
+    <div id="footer" class="mt-auto ">
+      <footer-bar></footer-bar>
+    </div>
+  </body>
+</html>
