@@ -1,0 +1,1 @@
+Este es un pequeño CRUD usando laravel, en este pequeño proyecto se creo Task list

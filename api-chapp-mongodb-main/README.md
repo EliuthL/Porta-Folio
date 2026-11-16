@@ -1,0 +1,1 @@
+Este proyecto consta de una api usando laravel y php 11, como base de datos se uso MongoDB y el servicio en la nube de MongoDB Atlas
